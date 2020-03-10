@@ -66,7 +66,7 @@ def ARIMA():
 ```
 
 <p align=center>
-  <img width="400px" src="https://github.com/Xenia101/Corona-Virus-Prediction/blob/master/img/predict.png?raw=true">
+  <img width="500px" src="https://github.com/Xenia101/Corona-Virus-Prediction/blob/master/img/predict.png?raw=true">
 </p>
 
 ## Execution / Test Environment
