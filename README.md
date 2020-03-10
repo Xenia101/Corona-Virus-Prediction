@@ -1,3 +1,3 @@
-# ANTI-VIRUS-NONE
+# Corona-Virus-Prediction
 
-Time series analysis with Corona Virus Daily Data
+Time series analysis with Corona Virus Daily Data and ARIMA models
