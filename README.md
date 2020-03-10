@@ -28,6 +28,10 @@ def Calc_ACF_PAF():
   <img width="400px" src="https://github.com/Xenia101/Corona-Virus-Prediction/blob/master/img/PACF.png?raw=true">
 </p>
 
+> Left : ACF / Right : PACF
+
+4. 
+
 ## Execution / Test Environment
 
 - Window 10
