@@ -24,8 +24,8 @@ def Calc_ACF_PAF():
 ```
 
 <p align=center>
-  <img width="500px" src="https://github.com/Xenia101/Corona-Virus-Prediction/blob/master/img/ACF.png?raw=true">
-  <img width="500px" src="https://github.com/Xenia101/Corona-Virus-Prediction/blob/master/img/PACF.png?raw=true">
+  <img width="400px" src="https://github.com/Xenia101/Corona-Virus-Prediction/blob/master/img/ACF.png?raw=true">
+  <img width="400px" src="https://github.com/Xenia101/Corona-Virus-Prediction/blob/master/img/PACF.png?raw=true">
 </p>
 
 ## Execution / Test Environment
