@@ -43,7 +43,31 @@ def Calc_ACF_PAF():
 
 > Left : ACF / Right : PACF
 
-4. 
+4. Forecast using **ARIMA** models
+
+```python
+def ARIMA():
+  ...
+  order = (0,1,1)
+  model = statsmodels.tsa.arima_model.ARIMA(series, order, freq='D')
+  model_fit = model.fit(trend='c',full_output=True, disp=10)
+  ...
+```
+
+5. Show a graph
+
+```python
+def ARIMA():
+  ...
+  plt = model_fit.plot_predict()
+  Number_to_predict = 3
+  fore = model_fit.forecast(steps=Number_to_predict)
+  ...
+```
+
+<p align=center>
+  <img width="400px" src="https://github.com/Xenia101/Corona-Virus-Prediction/blob/master/img/predict.png?raw=true">
+</p>
 
 ## Execution / Test Environment
 
