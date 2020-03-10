@@ -9,6 +9,19 @@ Time series analysis with Corona Virus Daily Data and ARIMA models
 
 2. Show a Data Graph
 
+```python
+data = getData.read_csv('list')
+
+def ShowGraph(data):
+  df = pd.DataFrame(data, columns = ['date' , 'value'])
+  df.date = pd.to_datetime(df.date)
+  df.value = pd.to_numeric(df['value'])
+  df = df.set_index('date')
+  g = df['value'].plot(title="Corona-Virus Daily data")
+  plt = g.get_figure()
+  ...
+```
+
 <p align=center>
   <img width="500px" src="https://github.com/Xenia101/Corona-Virus-Prediction/blob/master/img/Figure_1.png?raw=true">
 </p>
