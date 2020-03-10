@@ -40,6 +40,7 @@ def ARIMA():
     time = datetime(2020, 3, 5) # start time
     for x in fore[0]:
         p_time = time + timedelta(days=Number_to_predict)
+        p_time = p_time.strftime('%Y-%m-%d')
         print("{0} : {1}".format(p_time, x))
         Number_to_predict += 1
     
