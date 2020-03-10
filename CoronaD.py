@@ -20,7 +20,7 @@ def Calc_ACF_PAF(): # ACF PAF Calculation with ARIMA models
     edit_data = data.diff(periods=1).iloc[1:]
     plot_acf(data)
     plot_pacf(data)
-    #plt.show()
+    plt.show()
     # p = 0, q = 1
 
 def ARIMA():
@@ -28,7 +28,7 @@ def ARIMA():
     order = (0,1,1)
     model = statsmodels.tsa.arima_model.ARIMA(series, order, freq='D')
     model_fit = model.fit(trend='nc',full_output=True, disp=1)
-    #print(model_fit.summary())
+    print(model_fit.summary())
     plt = model_fit.plot_predict()
     plt.show()
     fore = model_fit.forecast(steps=1)
@@ -36,9 +36,7 @@ def ARIMA():
     
 if __name__ == "__main__":
     data = getData.read_csv('list')
-    #ShowGraph(data)
+    ShowGraph(data)
 
     Calc_ACF_PAF()
     ARIMA()
-
-#https://byeongkijeong.github.io/ARIMA-with-Python/
