@@ -73,6 +73,24 @@ def ARIMA():
 
 6. Result
 
+```python
+Number_to_predict = 5
+...
+for x in fore[0]:
+        p_time = time + timedelta(days=Number_to_predict)
+        p_time = p_time.strftime('%Y-%m-%d')
+        print("{0} : {1}".format(p_time, x))
+        Number_to_predict += 1
+```
+
+```
+2020-03-10 : 6057.29830482379
+2020-03-11 : 6196.215619909736
+2020-03-12 : 6335.132934995682
+2020-03-13 : 6474.050250081628
+2020-03-14 : 6612.967565167574
+```
+
 ## Execution / Test Environment
 
 - Window 10
