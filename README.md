@@ -69,7 +69,7 @@ def ARIMA():
   <img width="500px" src="https://github.com/Xenia101/Corona-Virus-Prediction/blob/master/img/predict.png?raw=true">
 </p>
 
-> Orange Line : Forecast / Blue Line : Origin
+> Orange Line : Origin / Blue Line : Forecast
 
 6. Result
 
