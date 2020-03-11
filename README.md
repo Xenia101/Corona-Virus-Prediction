@@ -86,6 +86,8 @@ for x in fore[0]:
 2020-03-11 : 6335.132934995682
 ```
 
+## Differences between **actual data** and **forecast results**
+
 |날짜|Predict|Actuality|Difference|
 |------|:---:|:---:|:---:|
 |2020-03-09|6057|7382|1325|
