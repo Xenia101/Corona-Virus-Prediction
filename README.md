@@ -79,7 +79,8 @@ for x in fore[0]:
         p_time = p_time.strftime('%Y-%m-%d')
         print("{0} : {1}".format(p_time, x))
         Number_to_predict += 1
-        
+```
+```json
 # Output
 2020-03-09 : 6057.29830482379
 2020-03-10 : 6196.215619909736
