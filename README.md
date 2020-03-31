@@ -1,6 +1,6 @@
 # Corona-Virus-Prediction
 
-Time series analysis with Corona Virus Daily Data and ARIMA models
+Time series analysis with Corona Virus Daily Data and **ARIMA** models
 
 ### ARIMA(Autoregressive integrated moving average) 란?
 > In statistics and econometrics, and in particular in time series analysis, an autoregressive integrated moving average (ARIMA) model is a generalization of an autoregressive moving average (ARMA) model. Both of these models are fitted to time series data either to better understand the data or to predict future points in the series (forecasting).
