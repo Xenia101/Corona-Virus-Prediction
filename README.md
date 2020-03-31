@@ -30,7 +30,7 @@ def ShowGraph(data):
   <img width="500px" src="https://github.com/Xenia101/Corona-Virus-Prediction/blob/master/img/Figure_1.png?raw=true">
 </p>
 
-3. **ACF** & **PAF** Calculation and Show a graphs
+3. **ACF & PAF** Calculation and Show a graphs
 
 ```python
 def Calc_ACF_PAF():
